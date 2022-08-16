@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the WebPage -->
+    <title>Zomato-Demo</title>
+    <!-- Linking External CSS  -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="heading">
+      <p class="logo">e!</p>
+      <div class="link">
+        <a href="#" class="login">Login </a>
+        <a href="#" class="new-login">Create an account</a>
+      </div>
+    </div>
+
+    <!-- Heading of the Restaurant -->
+    <div>
+      <h1 class="content">Breakfast Places in Mumbai</h1>
+    </div>
+
+    <!-- Dividing the Page Layout in 2 parts with display property -->
+    <div class="sections">
+      <aside>
+        <div class="aside">
+          <p class="filters">Filters</p>
+
+          <!-- Location DD -->
+          <label for="location" class="select">Select Location</label><br />
+          <select name="location" id="location" class="options">
+            <option>Seach</option>
+            <option>New Delhi</option>
+            <option>Mumbai</option>
+            <option>Chennai</option>
+            <option>Kolkata</option>
+            <option>Hyderabad</option>
+            <option>Bhubaneswar</option>
+          </select>
+          <!-- Cuisine Checkboxes -->
+          <div>
+            <p class="cusions">Cuisine</p>
+            <div class="cusions-items">
+              <input type="checkbox" id="1" />
+              <label for="1">North Indian</label><br />
+              <input type="checkbox" id="2" checked />
+              <label for="2">South Indian</label><br />
+              <input type="checkbox" id="3" checked />
+              <label for="3">Chinese</label><br />
+              <input type="checkbox" id="4" />
+              <label for="4">Fast Food</label><br />
+              <input type="checkbox" id="5" />
+              <label for="5">Street Food</label><br />
+            </div>
+          </div>
+          <!-- Cost for Two radio button options -->
+          <div>
+            <p class="price">Cost For Two</p>
+            <div class="cost">
+              <input type="radio" id="6" name="cost" />
+              <label for="6"> Less than &#8377;500</label><br />
+              <input type="radio" id="7" name="cost" />
+              <label for="7"> &#8377;500 &nbsp to &#8377;1000</label><br />
+              <input type="radio" id="8" name="cost" />
+              <label for="8"> &#8377;1000 to &#8377;1500</label><br />
+              <input type="radio" id="9" name="cost" />
+              <label for="9"> &#8377;1500 to &#8377;2000</label><br />
+              <input type="radio" id="10" name="cost" />
+              <label for="10"> &#8377;2000+</label>
+            </div>
+          </div>
+          <!-- Sort radio button options -->
+          <div>
+            <p class="sort">Sort</p>
+            <div class="sort-type1">
+              <input type="radio" id="11" name="sort" />
+              <label for="11">Price low to high</label>
+              <br /></div>
+              <div class="sort-type2">
+              <input type="radio" id="12" name="sort" />
+              <label for="12">Price high to low</label>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section>
+        <div class="items">
+          <div>
+            <div class="small-item vertical">
+              <img class="img" src="./Img/breakfast.jpg" alt="Breakfast time" />
+            </div>
+            <h3 class="rest-name">The Big Chill Cakery</h3>
+            <p class="rest-location">FORT</p>
+            <p class="rest-address">
+              Shop 1, Plot D, Samruddhi Complex, Chincholi …
+            </p>
+          </div>
+
+          <div>
+            <br /><br />
+            <hr />
+            <div class="Bakery margin-left">CUISINES: </div>
+            <div class="Bakery margin-left color">Bakery </div>
+            <div class="Bakery1">
+            <div class="Bakery margin-left">COST FOR TWO :</div>
+            <div class="Bakery color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8377 700</div>
+          </div>
+          </div>
+        </div>
+        <div class="items">
+          <div>
+            <div class="small-item vertical">
+              <img class="img" src="./Img/breakfast.jpg" alt="Breakfast time" />
+            </div>
+            <h3 class="rest-name">The Bake Shop</h3>
+            <p class="rest-location">FORT</p>
+            <p class="rest-address">
+              Shop 1, Plot D, Samruddhi Complex, Chincholi …
+            </p>
+          </div>
+
+          <div>
+            <br /><br />
+            <hr />
+            <div class="Bakery margin-left">CUISINES: </div>
+            <div class="Bakery margin-left color">Bakery </div>
+            <div class="Bakery1">
+            <div class="Bakery margin-left">COST FOR TWO :</div>
+            <div class="Bakery color">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8377 700</div>
+          </div>
+          </div>
+        </div>
+      
+    <!-- Pagination Block  -->
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">&raquo;</a>
+    </div>
+    </section>
+  </div>
+  </body>
+</html>
